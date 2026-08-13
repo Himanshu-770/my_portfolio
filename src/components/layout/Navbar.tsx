@@ -60,7 +60,7 @@ export default function Navbar() {
           </button>
 
           <a
-  href="/resume.pdf"
+  href="/new_resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-2 rounded-xl bg-[#00D9FF] px-5 py-2 font-semibold text-black transition duration-300 hover:bg-[#38BDF8]"
