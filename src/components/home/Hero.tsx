@@ -106,7 +106,7 @@ export default function Hero() {
             </Link>
 
             <a
-              href="/resume.pdf"
+              href="/new_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={`flex items-center gap-2 rounded-xl px-7 py-3 font-semibold transition duration-300 ${
