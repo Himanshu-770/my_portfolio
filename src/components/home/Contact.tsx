@@ -45,10 +45,11 @@ export default function Contact() {
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
-          from_name: name,
-          from_email: email,
-          subject,
+          title: subject,
+          name: name,
+          email: email,
           message,
+          time:new Date().toLocaleString()
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
       );
